@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: rgb(153,169,201);
+    background: linear-gradient(90deg, rgba(153,169,201,1) 0%, rgba(18,23,46,1) 0%, rgba(56,59,71,1) 5%, rgba(0,0,0,1) 100%);
+    height: 130px;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul li a{
+text-decoration: none;
+color:white;
+font-size: 1.3rem;
+}
+.nav-bar ul li a:hover{
+    color: #FFD700;
+    transition: 0.5s ease-in-out;
+}
+
+.logo img{
+    margin-top: -75px;
+    width: 250px;
+}
+.booking{
+    margin-top: 12px;
+}
+
+.booking a{
+    background-color: #FFD700;
+    color: #1E1E1E ;
+    width: 270px;
+    height: 70px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none !important;
+    float: inline-end;
+    text-align: center;
+    border-radius: 30px;
+}
+.booking a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.banner{
+    background: rgb(153,169,201);
+    background: linear-gradient(90deg, rgba(153,169,201,1) 0%, rgba(18,23,46,1) 62%, rgba(0,0,0,1) 76%);
+    display: flex;
+    align-items: center;
+    height: 800px;
+}
+
+.banner_content>h1{
+    margin-top: -80px;
+    color:#0a0f25;
+
+}
+.img2>img{
+    width: 500px;
+    float: inline-end;
+}
+.img2 img:hover{
+    transition: 0.5s ease-in-out !important;
+    rotate: 10deg;
+    transform: scale(1.1);
+}
+.deals{
+background: rgb(153,169,201);
+background: linear-gradient(129deg, rgba(153,169,201,1) 0%, rgba(18,23,46,1) 0%, rgba(60,68,100,1) 45%, rgba(0,0,0,1) 100%);
+height: 750px;
+}
+    
+.deal{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    text-align: center;
+
+}
+.bookbtn {
+    display: flex;
+}
+.bookbtn a {
+    text-align: center;
+    background-color:#FFD700;
+    text-decoration: none !important;
+    color:white;
+    width: 215px;
+    height: 44px;
+    border-radius: 40px;
+    padding: 8px;
+}
+.bookbtn a:hover{
+    transition: 0.3s ease-in-out;
+    color: white;
+    background-color:#f6e589;
+}
+
+.deal1{
+    align-items: center;
+    display: flex;
+    background-color: black;
+    width: 250px;
+    height: 470px;
+    flex-direction: column;
+    text-align: center;   
+    border-radius: 20px;
+    border: 3px solid gray;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+.deal2{
+    align-items: center;
+    display: flex;
+    background-color:black;
+    width: 250px;
+    height: 470px;
+    flex-direction: column;
+    text-align: center;   
+    border-radius: 20px;
+    border: 3px solid gray;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+.deal3{
+    align-items: center;
+    display: flex;
+    background-color: black;
+    width: 250px;
+    height: 470px;
+    flex-direction: column;
+    text-align: center;   
+    border-radius: 20px;
+    border: 3px solid gray;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+.deal4{
+    align-items: center;
+    display: flex;
+    background-color:black;
+    width: 250px;
+    height: 470px;
+    flex-direction: column;
+    text-align: center;   
+    border-radius: 20px;
+    border: 3px solid gray;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+.deal1 img{
+    border-radius: 80px;
+    padding: 20px;
+    width: 225px;
+    align-items: center;
+}
+.deal2 img{
+    border-radius: 80px;
+    padding: 16px;
+    width: 174px;
+    align-items: center;
+}
+.deal3 img{
+    border-radius: 80px;
+    padding: 20px;
+    width: 225px;
+    align-items: center;
+}
+.deal4 img{
+    border-radius: 80px;
+    padding: 20px;
+    width: 225px;
+    align-items: center;
+}
+
+.deal1 h2 {
+    color: white;
+}
+.deal2 h2 {
+    color: white;
+}
+.deal3 h2 {
+    color: white;
+}
+.deal4 h2 {
+    color: white;
+}
+
+
+.deal1 ul li{
+    color: white;
+}
+.deal2 ul li{
+    color: white;
+}
+.deal3 ul li{
+    color: white;
+}
+.deal4 ul li{
+    color: white;
+}
+
+
+.deal1:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.deal2:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);    
+}
+.deal3:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.deal4:hover{
+    transition: ease-in-out 0.5s;
+    transform: scale(1.1);
+}
+
+.foots{
+    background: rgb(153,169,201);
+    background: linear-gradient(90deg, rgba(153,169,201,1) 0%, rgba(18,23,46,1) 0%, rgba(56,59,71,1) 5%, rgba(0,0,0,1) 100%);
+    display: flex;
+    height: 220px;
+    flex-direction: column;
+    align-items:center;
+    
+
+}
+.heading h2{
+    position: absolute;
+    left:44%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+.bot_bar ul{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 40px;
+    gap: 50px;
+}
+.bot_bar ul li a{
+    color: white;
+}
